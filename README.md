@@ -16,10 +16,10 @@ The AirBnB Clone project utilizes the following classes:
 
 || BaseModel | FileStorage | User | State | City | Amenity | Place | Review |
 |-:| ---------:| -----------:| ----:| -----:| ----:| ------: | ----: | ------:|
-|**PUBLIC INSTANCE ATTRIBUTES**
-**PUBLIC INSTANCE METHODS**
-**PUBLIC CLASS ATTRIBUTES**
-**PRIVATE CLASS ATTRIBUTES**|id created_at updated_at
+|**PUBLIC INSTANCE ATTRIBUTES**|id created_at updated_at|
+|**PUBLIC INSTANCE METHODS**|
+|**PUBLIC CLASS ATTRIBUTES**|
+**PRIVATE CLASS ATTRIBUTES**|id created_at updated_at|
 
 ### Storage
 ***
