@@ -2,8 +2,7 @@
 <h1 align="center">AirBnB Clone </h1>
 
 ### Description
-
-__
+____
 
 The AirBnB Clone is a complete web application, integrating database storage, a biack-end API, and front-end interfacing in a clone of AirBnB.
 
