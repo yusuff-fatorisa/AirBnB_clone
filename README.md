@@ -10,11 +10,22 @@ The project currently only implements the back-end console: command interpreter 
 Shell (perfect for development and debugging)
 
 ### Classes
-
 ***
 
 The AirBnB Clone project utilizes the following classes:
 
 |  | BaseModel | FileStorage | User | State | City | Amenity | Place | Review |
 |-:| ---------:| -----------:| ----:| -----:| ----:| ------: | ----: | ------:|
-|**PUBLIC INSTANCE ATTRIBUTES**|
+|**PUBLIC INSTANCE ATTRIBUTES**
+**PUBLIC INSTANCE METHODS**
+**PUBLIC CLASS ATTRIBUTES**
+**PRIVATE CLASS ATTRIBUTES**|
+
+### Storage
+***
+
+### Console
+***
+
+### Testing
+***
