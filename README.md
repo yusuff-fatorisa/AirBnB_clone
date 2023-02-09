@@ -19,7 +19,7 @@ The AirBnB Clone project utilizes the following classes:
 |**PUBLIC INSTANCE ATTRIBUTES**
 **PUBLIC INSTANCE METHODS**
 **PUBLIC CLASS ATTRIBUTES**
-**PRIVATE CLASS ATTRIBUTES**|
+**PRIVATE CLASS ATTRIBUTES**|id created_at updated_at
 
 ### Storage
 ***
