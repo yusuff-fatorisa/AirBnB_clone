@@ -8,3 +8,7 @@ The AirBnB Clone is a complete web application, integrating database storage, a 
 
 The project currently only implements the back-end console: command interpreter to manipulate data without a visual interface, like in a
 Shell (perfect for development and debugging)
+
+### Classes
+
+***
