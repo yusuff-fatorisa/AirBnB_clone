@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-
 import cmd
 import datetime
 import uuid
+
 
 class BaseModel:
     def __init__(self):
         self.id = uuid.uuid4()
         self.create_at = datetime.datetime.now()
         self.update_at = datetime.datetime.now()
+
 
 class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
@@ -34,8 +35,8 @@ class HBNBCommand(cmd.Cmd):
         print("Commands:")
         for cmd in self.get_names():
             if cmd.startswith("do_"):
-                print("  %s: %s" % (cmd[3:], self.__getattribute__(cmd).__doc__))
-
+                gta = self.__getattribute__(cmd).__doc__
+                print("  %s: %s" % (cmd[3:]), gta)
 
 
 if __name__ == '__main__':
