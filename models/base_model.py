@@ -7,6 +7,7 @@ for other classes.
 
 import uuid
 from datetime import datetime as dt
+from models import storage
 
 
 class BaseModel(object):
@@ -43,7 +44,8 @@ class BaseModel(object):
         """updates the public instance attribute
            'updated_at' with the current datetime.
         """
-        self.updated_at = datetime.datetime.now()
+        self.updated_at = dt.now()
+        storage.save(self)
 
     def to_dict(self):
         """
