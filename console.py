@@ -1,14 +1,6 @@
 #!/usr/bin/python3
 import cmd
-import datetime
-import uuid
-
-
-class BaseModel:
-    def __init__(self):
-        self.id = uuid.uuid4()
-        self.create_at = datetime.datetime.now()
-        self.update_at = datetime.datetime.now()
+from models.base_model import BaseModel
 
 
 class HBNBCommand(cmd.Cmd):
@@ -18,6 +10,15 @@ class HBNBCommand(cmd.Cmd):
         """Quit command to exit the console"""
         return True
 
+    def do_EOF(self, line):
+        """End the program at EOF signal"""
+        print("")
+        return True
+
+    def emptyline(self):
+        """Do nothing at empty line"""
+        pass
+
     def do_print(self, line):
         """Print Hilary and Yusuff"""
         print("Hilary and Yusuff")
@@ -25,18 +26,24 @@ class HBNBCommand(cmd.Cmd):
     def do_create(self, line):
         """Create an user"""
         user = BaseModel()
-        print(user.id, user.create_at, user.update_at)
+        print(user.id, user.created_at, user.updated_at)
 
-    def do_help(self, line):
-        """
-        Print the list of available commands
-        and their brief descriptions
-        """
-        print("Commands:")
-        for cmd in self.get_names():
-            if cmd.startswith("do_"):
-                gta = self.__getattribute__(cmd).__doc__
-                print("  %s: %s" % (cmd[3:]), gta)
+    def do_show(self, line):
+        """ Prints the string representation of
+        an instance based on the class name and id"""
+
+    def do_destroy(self, line):
+        """ Deletes an instance based on the class
+        name and id (save the change into the JSON file)"""
+
+    def do_all(self, line):
+        """Prints all string representation of all
+        instances based or not on the class name"""
+
+    def do_update(self, line):
+        """Updates an instance based on the class
+        name and id by adding or updating attribut
+        e (save the change into the JSON file)"""
 
 
 if __name__ == '__main__':
