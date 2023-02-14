@@ -1,5 +1,8 @@
 test_*
-<<<<<<< HEAD
-=======
 file.json
->>>>>>> 62f1401e22e033cc13278d7272aa198b9f455c8e
+*.pyc
+models/__pycache__/__init__.cpython-38.pyc
+models/__pycache__/__init__.cpython-38.pyc
+models/__pycache__/base_model.cpython-38.pyc
+models/engine/__pycache__/__init__.cpython-38.pyc
+models/engine/__pycache__/file_storage.cpython-38.pyc
