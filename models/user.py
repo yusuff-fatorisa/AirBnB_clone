@@ -4,7 +4,7 @@ This module contains a 'User' class
 that inherits from BaseModel class
 """
 
-from base_model import BaseModel
+from models.base_model import BaseModel
 
 
 class User(BaseModel):
