@@ -44,8 +44,10 @@ class FileStorage(object):
 
     def new(self, obj):
         """ sets inside '__objects' the 'obj' with 'obj class name'.id """
-        print(obj.id)
+        print("New Created Instance ID ==> {}".format(obj.id))
         FileStorage.__objects[obj.id] = obj
+        print("====== ======== ========= ======== ===========")
+        print(FileStorage.__objects)
 
     def save(self):
         """ serializes '__objects' to JSON file using __file_path """
