@@ -20,5 +20,11 @@ The files present in this repository includes
  - This file contains some `mark up` text that builds up a `HTML` page to display a `header` and a `footer`.
 
 #### `1-index.html`
-  - This file contains some`mark up` text that builds up a `HTML` page to display a `header` and `footer` by using the `style` tag in the `head` tag.
+  - This file contains some `mark up` text that builds up a `HTML` page to display a `header` and `footer` by using the `style` tag in the `head` tag.
+
+#### `2-index.html`
+  - This file contains some `mark up` text that displays a `header` and a `footer` by using external `CSS` file styling.
+
+#### `3-index.html`
+  - This file contains some `mark up` text that displays a `header` and a `footer` by using external `CSS` file styling.
 
