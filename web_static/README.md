@@ -17,17 +17,19 @@ The files present in this repository includes
   - This file contains all the information about this repository and its contents.
 
 #### `0-index.html`
- - This file contains some `mark up` text that builds up a `HTML` page to display a `header` and a `footer`.
+ - This file contains some `mark up` texts that builds up a `HTML` page to display a `header` and a `footer`.
 
 #### `1-index.html`
-  - This file contains some `mark up` text that builds up a `HTML` page to display a `header` and `footer` by using the `style` tag in the `head` tag.
+  - This file contains some `mark up` texts that builds up a `HTML` page to display a `header` and `footer` by using the `style` tag in the `head` tag based on `0-index.html`.
 
 #### `2-index.html`
-  - This file contains some `mark up` text that displays a `header` and a `footer` by using external `CSS` file styling.
+  - This file contains some `mark up` texts that displays a `header` and a `footer` by using external `CSS` file styling `1-index.html`.
 
 #### `3-index.html`
-  - This file contains some `mark up` text that displays a `header` and a `footer` by using external `CSS` file styling.
+  - This file contains some `mark up` texts that displays a `header` and a `footer` by using external `CSS` file styling based on `2-index.html`.
 
 #### `4-index.html`
-  - This file contains some `mark up` text that displays a `header` and a `footer`  and a `filters box` with a `search button`.
+  - This file contains some `mark up` texts that displays a `header` and a `footer`  and a `filters box` with a `search button` based on `3-index.html`.
 
+#### `5-index.html`
+  - This file contains some `mark up` texts that displays a `header, footer and a `filters box` based on `4-index.html`.
