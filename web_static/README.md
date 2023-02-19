@@ -28,3 +28,6 @@ The files present in this repository includes
 #### `3-index.html`
   - This file contains some `mark up` text that displays a `header` and a `footer` by using external `CSS` file styling.
 
+#### `4-index.html`
+  - This file contains some `mark up` text that displays a `header` and a `footer`  and a `filters box` with a `search button`.
+
