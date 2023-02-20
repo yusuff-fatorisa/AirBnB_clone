@@ -32,4 +32,11 @@ The files present in this repository includes
   - This file contains some `mark up` texts that displays a `header` and a `footer`  and a `filters box` with a `search button` based on `3-index.html`.
 
 #### `5-index.html`
-  - This file contains some `mark up` texts that displays a `header, footer and a `filters box` based on `4-index.html`.
+  - This file contains some `mark up` texts that displays a `heade`r, `footer` and a `filters box` based on `4-index.html`.
+
+#### `6-index.html`
+  - This file contains some `mark up` texts that displays a `header`, `footer` and a `filters box` with `dropdown`, based on `5-index.html`.
+
+#### `7-index.html`
+  - This file contains some `mark up` texts that displays a `header`, `footer`, a `filter box` with dropdown and results.
+
