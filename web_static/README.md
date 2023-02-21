@@ -40,3 +40,5 @@ The files present in this repository includes
 #### `7-index.html`
   - This file contains some `mark up` texts that displays a `header`, `footer`, a `filter box` with dropdown and results.
 
+#### `8-index.html`
+  - This file contains some `mark up` text that displays a `header`, `footer, ` a filter box` which is a dropdown list and the `result of the search`.
