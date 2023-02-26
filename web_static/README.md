@@ -46,3 +46,22 @@ The files present in this repository includes
 #### `100-index.html`
   - This file contains some `mark up` texts that displays a `header`, `footer` `a filters box` with `dropdown` and its `results`.
 
+#### `101-index.html`
+  - This file contains some `mark up` texts that displays and improves all elements on the page by using [CSS Flexible boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) model.
+
+#### `102-index.html`
+  - This file contains some `mark up` texts that adds `responsive design` stylings to the display of the page to fit correctly across various devices of mobile or web.
+
+#### `103-index.html`
+  - This file contains some `mark up` texts that add `accesibility support` to the page.
+
+
+
+
+## `FOLDERS`
+
++ #### `styles`
+  - This folder contains all styles for each page depending on the complexity at that point in time.
+
++ #### `images`
+  - This folder contains all images used at every point in time in the project.
