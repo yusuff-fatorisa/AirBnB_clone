@@ -38,7 +38,7 @@ class BaseModel(object):
 
     def __str__(self):
         """ prints a representation of the object """
-        return f"{[self.__class__.__name__]} {(self.id)} {self.__dict__}"
+        return '[{}] ({}) {}'.format(self.__class__.__name__, self.id, self.__dict__)
 
     def save(self):
         """updates the public instance attribute
